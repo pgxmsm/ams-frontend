@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body{
+  background-color: black;
+  /* height: 100vh; */
+}
+
+
+.homeMainPg{
+  /* background-color: rgb(222, 189, 189);
+   */
+   background: url(https://img.freepik.com/premium-photo/graduation-background-with-school-accessories_641503-305577.jpg);
+   /* background-clip: border-box; */
+   background-position:top;
+   background-repeat: no-repeat;
+   background-size: cover;
+  height: 100%;
+}
+.homeMainPg h1{
+  display: block;
+  color: rgb(254, 255, 252);
+  /* margin-top: 0; */
+}
+
+
+/* body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+} */

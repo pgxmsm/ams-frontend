@@ -1,0 +1,281 @@
+.mainContainer table thead{
+    padding: auto;
+}
+
+
+
+
+
+
+
+
+
+<div className={style.previousStatus}>
+{ leaveRecord.length > 0 ?
+<table>
+ <thead>
+ <tr>
+   <th>Date:</th>
+   <th>Reason:</th>
+   <th>Status:</th>
+   </tr>
+ </thead>
+ { leaveRecord.map((item, index)=>{ 
+   return(
+ <tbody key={index}>
+   <tr>
+     <td>{ format(item.date , 'dd-MMM-yy')}</td>
+     <td className={style.specialTd}>{item.reason}</td>
+     <td>
+       {item.leaveStatus}
+     </td>
+   </tr>
+ </tbody>
+
+
+
+ 
+   );
+ })}
+  </table>  
+  :
+  <span> No any application record .</span>
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leavePortal form{
+  background-color: rgb(169, 169, 235);
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  width: 40vw;
+  min-width: 18em;
+  margin-bottom: 2em;
+  /* align-items: center; */
+}
+.leavePortal .firstcontainer{
+  display: flex;
+  justify-content: space-between;
+  margin:0.2em 1em;
+  /* background-color: black; */
+}
+.leavePortal .firstcontainer button{
+  border-radius: 5px;
+  padding:0 0.9em;
+  height: 2.3em;
+  font-size: 16px;
+  background-color: rgb(241, 10, 72);
+  color: white;
+  font-weight: 800;
+  border: 2px solid black;
+}
+.leavePortal form .submitBtn{
+  width: 5em;
+  margin: auto;
+  margin-top: 0.5em;
+  border-radius: 7px;
+  background-color: rgb(22, 14, 252);
+  color: white;
+}
+
+.leavePortal .prevLeaveBtn{
+  /* width: 8em; */
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 7px;
+  background-color: rgb(148, 127, 196);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  lRequest.map((item, index)=>{ 
+  // return(
+  //   <div key={item._id}>
+  //    <span>Name:{item.userName}</span>
+  //    <table>
+  //     <thead>
+  //     <tr>
+  //       <th>Date:</th>
+  //       <th>Reason:</th>
+  //       <th>Status:</th>
+  //       </tr>
+  //     </thead>
+      
+  //     <tbody >
+  //       <tr>
+  //         <td>{ format(item.date , 'dd-MMM-yy')}</td>
+  //         <td className={style.specialTd}>    {item.reason}  </td>
+  //         <td>
+  //           <select id={item._id} onChange={(e)=>{handleLeaveReq(e)}}>
+  //           <option value="pending">{item.leaveStatus}</option>
+  //                   <option value="approved">Approve</option>
+  //                   <option value="rejected">Reject</option>
+  //           </select>
+  //         </td>
+  //       </tr>
+  //     </tbody>
+      
+      
+  //      </table>  
+  //      </div>
+  //        );
+  //     })
+      
+
+
+    
+   
+    {/* </div> */}
+
+
+
+{/* </div> } */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attendanceRecord {
+  /* display: flex; */
+  /* background-color: rgb(60, 227, 236); */
+  border-radius: 20px;
+  /* padding: 0.7em; */
+  /* box-shadow: 0 0 10px 4px rgb(0, 106, 255); */
+  /* top:-2em; */
+  display: flex;
+  width: 100%;
+  /* flex-direction: column; */
+  /* width: 70%; */
+  /* position: relative; */
+  /* margin-left: 3em; */
+  /* margin: auto; */
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+.attendanceRecord  table{
+  display: flex;
+  margin: auto;
+  /* width: 100%; */
+
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+
+  /* padding:0 2em; */
+
+  flex-direction: column;
+
+  display: flex;
+  margin: auto;
+  /* width: 100%; */
+  background-color: rgb(84, 225, 195);
+ 
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.attendanceRecord table tr{
+  /* margin-left:  1em; */
+  font-size: 18px;
+  /* width: 100%; */
+ display: flex;
+ justify-content: center;
+  align-items: center;
+  /* padding:0 2em; */
+  /* border: 1px solid rgb(32, 46, 102); */
+}
+
+.attendanceRecord  table tbody tr td {
+  display: flex;
+  /* align-items: start; */
+  /* text-align: center; */
+  font-size: clamp(13px, 2vw, 32px);
+  /* padding: 0 4em; */
+  justify-content: space-between;
+  /* border: 2px solid rgb(252, 15, 11); */
+  flex-wrap: wrap; }
+
+.attendanceRecord table thead tr th {
+  /* border: 1px solid rgb(47, 11, 252); */
+  font-size: clamp(13px, 2vw, 32px);
+  padding: 0 5em;
+}
+.attendanceRecord table tr {
+
+  font-size: 18px;
+  /* width: 100%; */
+  /* display: flex; */
+  justify-content: center;
+
+}

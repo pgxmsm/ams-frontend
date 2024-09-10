@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+html{
+  padding: 0;
+  /* height: 100vh; */
+}
+
+.page {
+  opacity: 1;
+  background-color: black;
+  height: 100vh;
+  /* transition: opacity 0s ease-in-out; */
+}
+
+
+.page-enter-active {
+  opacity: 1;
+  transition: op 0.2s ease-in-out;
+}
+
+@keyframes op {
+
+  0%{
+  opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    }
+  
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: op 0.5s ease-in-out;
+}
+

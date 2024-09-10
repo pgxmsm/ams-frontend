@@ -1,0 +1,410 @@
+.mainContainer{
+    background-color: rgb(127, 234, 255);
+    display: flex;
+
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    /* height: 100vh; */
+    min-height:100vh;
+    flex-direction: column;
+}
+
+.mainContainer .button-container{
+    /* background-color: #0000ff; */
+    margin-top: 1em;
+    display: flex;
+    position: relative;
+    /* margin: auto; */
+    /* left: 3em; */
+    /* margin-left: 2.3em; */
+    /* width: 100%; */
+    /* right: 1px; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+
+.mainContainer .button-container button{
+    /* padding:0 5em; */
+    /* width:5em; */
+    border-radius: 7px;
+    background-color: rgb(97, 14, 252);
+    color: white;
+
+    margin:0.3em 0.4em ;
+    font-size: 1.2em;
+}
+.button-container .showBtn{
+    font-size: 1.1em;
+    width: 9em;
+}
+
+
+.button-container .userDashContainer{
+    width: 100%;
+    margin: auto;
+    margin-top: 1.6em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.userDashContainer .userAttenanceRecord{
+    background-color: rgb(166, 246, 230);
+    border: 2px solid red;
+}
+.userDashContainer .userLeaveReq{
+    background-color: rgb(248, 251, 148);
+    border: 2px solid rgb(42, 81, 255);
+}
+
+
+.logOutBtn {
+    
+    bottom:0;
+    /* right: 0; */
+    /* margin-top: 0.3em; */
+    position: absolute;
+}
+.logOutBtn button{
+    padding: 0.2em 0.5em;
+    font-weight: 700;
+    border-radius: 10px;
+    color: red;
+    border: 3px solid black;
+}
+
+
+.mainContainer .userAttendanceRecord {
+    /* display: flex; */
+    background-color: rgb(60, 227, 236);
+    border-radius: 20px;
+    padding: 0.7em;
+    box-shadow: 0 0 10px 4px rgb(0, 106, 255);
+    /* top:-2em; */
+    width: 70%;
+    position: relative;
+    /* margin-left: 3em; */
+    margin: auto;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+.userAttendanceRecord  table{
+    /* display: flex; */
+    width: 100%;
+    background-color: rgb(208, 240, 233);
+    text-align: center;
+    /* border: 2px solid rgb(105, 99, 99); */
+    /* padding: 4em; */
+    /* border-radius: 30%; */
+    /* margin-left: 2em; */
+    /* flex-direction: column; */
+}
+
+.userAttendanceRecord table th ,.userAttendanceRecord table td{
+    /* margin-left:  1em; */
+    font-size: 18px;
+   
+    padding: 0.3em;
+    border: 1px solid rgb(32, 46, 102);
+}
+
+.userAttendanceRecord .noData{
+    text-align: center;
+    width: 80%;
+    /* margin-left: 2em; */
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.leavePortal{
+    width: 50vw;
+    min-width: 18em;
+    /* bottom: 80em; */
+    z-index: 1;
+    top: 3em;
+    /* height: 100vh; */
+    /* left: 15%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    justify-items: center;
+    position:absolute;
+    background-color: beige;
+    margin: auto;
+    /* margin-bottom: 2em; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px red;
+    /* margin-top: 3em; */
+    /* padding: 5em; */
+    /* margin-left: 2em; */
+}
+/* form{ */
+    /* margin: auto; */
+/* } */
+
+.leavePortal form{
+    background-color: rgb(169, 169, 235);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    width: 40vw;
+    min-width: 18em;
+    margin-bottom: 2em;
+    /* align-items: center; */
+}
+.leavePortal .firstcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin:0.2em 1em;
+    /* background-color: black; */
+}
+.leavePortal .firstcontainer button{
+    border-radius: 5px;
+    padding:0 0.9em;
+    height: 2.3em;
+    font-size: 16px;
+    background-color: rgb(241, 10, 72);
+    color: white;
+    font-weight: 800;
+    border: 2px solid black;
+}
+.leavePortal form .submitBtn{
+    width: 5em;
+    margin: auto;
+    margin-top: 0.5em;
+    border-radius: 7px;
+    background-color: rgb(22, 14, 252);
+    color: white;
+}
+
+.leavePortal .prevLeaveBtn{
+    /* width: 8em; */
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 7px;
+    background-color: rgb(148, 127, 196);
+    color: white;
+}
+
+.leavePortal .previousStatus{
+    background-color: rgb(255, 194, 53);
+    font-size: 1.2em;
+    /* width: 100%; */
+}
+
+
+.previousStatus table {
+    background-color: azure;
+    /* width: 100%; */
+    text-align: center;
+    /* padding: 4em; */
+        
+}
+.previousStatus table thead tr th{
+  font-size: 1.2em;
+  /* padding: 0.3em; */
+  border-bottom:1px solid rgb(17, 101, 235);
+  border-right: 1px solid rgb(49, 14, 207);
+  /* width: 20%; */
+}
+
+
+.previousStatus table tbody tr {
+    /* background-color: rgb(15, 235, 235); */
+    /* width: 10%; */
+    border: 1px solid rgb(141, 20, 253);
+    font-size: 1.1em;
+    /* height: 2em; */
+}
+.previousStatus table td{
+    /* margin: auto; */
+    color: black;
+    /* margin-left: 3em; */
+    width: 20%;
+}
+.previousStatus table .specialTd{
+    font-size: 0.8em;
+    width: 70%;
+    margin: 0 0.9em;
+   border: 1px solid rgb(241, 167, 167);
+    padding: 1em;
+}
+.previousStatus table  select{
+    font-size: 0.6em;
+    width: 100%;
+    background-color: rgb(54, 247, 244);
+    /* margin: 0 0.9em; */
+   border: 1px solid rgb(0, 0, 0);
+    padding: 0.2em;
+}
+
+
+/* Admin Dashboard Styling*/
+
+
+
+
+
+.adminDashboard{
+    /* background-color: brown; */
+    width: 80%;
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: space-evenly;
+    gap: 60px;
+    padding: 1em;
+    flex-wrap: wrap;
+    /* margin: auto; */
+}
+
+.adminControl{
+    /* width: 40%; */
+    height: 16em;
+    width: 30vw;
+    min-width: 15em;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 8px 2px rgb(13, 13, 14);
+
+}
+.adminControl:hover{
+    border: 3px solid rgb(19, 30, 241);
+}
+/* .adminDashboard .allUsers{
+    width: 27em;
+    height: 16em;
+    display: flex;
+
+    align-items: center;
+    font-weight: 700;
+   
+    flex-direction: column;
+  
+    background-color: beige;
+    border-radius: 5px;
+    border: 2px solid black;
+} */
+ .userIcon{
+    font-size: 8em;
+}
+.adminDashboard .usersLeave{
+
+    background-color: rgb(149, 224, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: unset; */
+   
+}
+.adminDashboard .userAttenanceRecord{
+    background-color: rgb(245, 187, 13);
+}
+.adminDashboard .adminSetting{
+    background-color: blueviolet;
+}
+
+
+.adminLeaveContainer{
+    background-color: rgb(204, 235, 169);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    width: 40vw;
+    min-width: 18em;
+    margin-bottom: 2em;
+}
+/* 
+.req{
+    padding: 3em;
+} */
+
+.leavePortal2{
+    width: 50vw;
+    min-width: 18em;
+    /* bottom: 80em; */
+    z-index: 1;
+    top: 3em;
+    /* height: 100vh; */
+    /* left: 15%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    justify-items: center;
+    position:absolute;
+    background-color: beige;
+    margin: auto;
+    /* margin-bottom: 2em; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px 4px red; */
+}
+
+
+
+.cstmShowing{
+    width: 70vw;
+    min-width: 20em;
+    margin: auto;
+    /* height: max-content; */
+    /* min-width: 18em; */
+    /* top: 20rem; */
+    position: fixed;
+    
+}
+
+
+
+
+
+.adminAttendanceRecordTable {
+    /* display: flex; */
+    /* background-color: rgb(237, 228, 237); */
+    border-radius: 20px;
+    /* padding: 0.7em; */
+    box-shadow: 0 0 10px 9px rgb(0, 110, 255);
+    /* top:-2em; */
+    /* width: 70%; */
+    /* position: relative; */
+    /* margin-left: 3em; */
+    margin: auto;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+.adminAttendanceRecordTable  table{
+    /* display: flex; */
+    width: 100%;
+    background-color: rgb(228, 207, 233);
+    text-align: center;
+    /* border: 2px solid rgb(105, 99, 99); */
+    /* padding: 4em; */
+    /* border-radius: 30%; */
+    /* margin-left: 2em; */
+    /* flex-direction: column; */
+}
+
+.adminAttendanceRecordTable table th ,.adminAttendanceRecordTabletable td{
+    /* margin-left:  1em; */
+    font-size: 18px;
+   
+    padding: 0.3em;
+    border: 1px solid rgb(32, 46, 102);
+}

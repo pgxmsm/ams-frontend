@@ -1,0 +1,200 @@
+
+/* html{
+    background-color: rgb(127, 234, 255);
+} */
+
+
+.loginPage{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    background-color: rgba(198, 100, 255, 0.678);
+    /* align-items: center; */
+    border: 1px solid black;
+    /* margin: auto; */
+    /* margin-top: 2.5em; */
+    /* border-radius: 10px; */
+    /* width: 40vw; */
+    /* min-width: 22em; */
+    height: 100%;
+
+}
+
+
+.loginContainer{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(107, 195, 195);
+    align-items: center;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 2.8em;
+    border-radius: 10px;
+    width: 40vw;
+    min-width: 20em;
+}
+
+
+
+
+
+.loginContainer form{
+    /* margin-top: 2.3em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 0, 0, 0.345);
+    background-color: rgb(141, 134, 134);
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    /* width: 100%; */
+    width: 24vw;
+    min-width: 19em;
+
+}
+
+.loginContainer form .fields{
+display: flex;
+width: 100%;
+margin: auto;
+/* margin: 8px; */
+margin-top: 0.5em;
+/* justify-content: space-between; */
+
+/* align-items: end; */
+}
+
+
+.loginContainer form .fields  label{
+    /* margin: 0 0.1em; */
+    color: white;
+    /* text-align: center; */
+    /* display: inline; */
+    margin: auto;
+    margin-top: 0.4em;
+    font-size: 16px;
+    /* width: 100%; */
+    /* padding: 0; */
+    /* border: 1px solid green; */
+    font-weight: 500;
+    
+}
+
+
+
+/* radio btns */
+
+
+.userSelectionContainer{
+    /* background-color: aqua;
+     */
+     color: white;
+     font-size: 1.1em;
+     font-weight: 600;
+    margin-top: 0.5em;
+    width: 90%;
+    /* margin: auto; */
+}
+.userSelection{
+    display: flex;
+    margin: auto;
+    /* align-items: center; */
+    /* align-items: center;  */
+    justify-content: center;
+    /* justify-items: center; */
+    /* width: 100%; */
+}
+.userSelection input{
+    
+    margin: auto;
+}
+/* .userSelection input:checked{
+    accent-color: rgb(19, 11, 255);
+} */
+.userSelection label{
+    color: rgb(108, 239, 8);
+}
+.userSelection div{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    width: 30%;
+    align-items: center;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    
+}
+
+/* radio btns ended */
+
+
+
+
+
+.loginContainer .fields input{
+    padding: 0 1.4em;
+    width: 13em;
+    font-size: 15px;
+    /* min-width: 12em; */
+    border-radius: 5px;
+    /* margin:0 0.6em; */
+    margin: auto;
+    margin-right: 1em;
+    
+}
+.loginContainer form .submitBTN  {
+    margin: 1.2em 0;
+
+    padding:0.4em 1.3em;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px ;
+    border: 1px solid greenyellow;
+    background-color: rgb(247, 241, 234);
+}
+
+.loginContainer form .q1{
+    color: rgb(253, 246, 32);
+    font-size: 14px;
+}
+
+.loginContainer form .regBTN  {
+    margin: 1.2em 0;
+
+    padding:0.4em 1.3em;
+    font-size: 0.76em;
+    font-weight: 700;
+    border-radius: 10px ;
+    border: 1px solid rgb(47, 137, 255);
+    background-color: rgb(178, 197, 247);
+}
+
+.homePg{
+    padding:0.4em 1.3em;
+    font-size: 0.76em;
+    font-weight: 700;
+    border-radius: 6px ;
+    border: 1px solid rgb(1, 1, 6);
+    background-color: rgb(240, 76, 76);
+    position: absolute;
+    margin:0.3em ;
+    top:0;
+    left: 0;
+}
+
+.adminBTN{
+    margin: 1em 0;
+    color: blue;
+    font-weight: 600;
+    background-color: bisque;
+    box-shadow: 0 0 4px 2px rgb(183, 183, 252);
+    padding: 0.3em 1em;
+    border-radius: 8px;
+}

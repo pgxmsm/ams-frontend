@@ -1,0 +1,195 @@
+.mainContainer{
+    width: 70vw;
+    min-width: 20em;
+    background-color: rgb(244, 106, 26);
+    z-index: 3;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+
+
+    position: fixed;
+ 
+    height: 350px;   /* Fixed height for the box */
+  
+    overflow-y: auto;
+
+    
+
+}
+.heading{
+    position: fixed;
+    width: 70vw;
+    /* width: 70.5%; */
+    min-width: 17.6em;
+    display: flex;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    padding:0.2em 1.4em ;
+    background-color: rgb(149, 162, 252);
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    /* margin-bottom: 8em; */
+
+}
+
+.contentDivider{
+    margin-top: 3.5em;
+}
+
+
+
+.heading button{
+    padding:0.1em 0.9em;
+    border-radius: 10px;
+    color:red;
+    background-color: rgb(255, 249, 249);
+}
+
+
+.mainContainer .tableAlpha table {
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    /* width: 65.7vw; */
+    min-width: 100%;
+    /* padding: 1em; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
+    border: 2px solid black;
+  
+    background-color: azure;
+}
+
+
+.mainContainer .tableAlpha table thead tr th{
+    border: 1px solid rgb(47, 11, 252);
+   
+    font-size: clamp(13px, 2vw, 32px);
+    padding: 0.5em 0;
+   
+}
+
+.mainContainer .tableAlpha table tbody  {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    text-wrap:wrap;
+}
+.mainContainer .tableAlpha table tbody tr td{
+    display: flex;
+    /* align-items: start; */
+    /* text-align: center; */
+    font-size: clamp(13px, 2vw, 32px);
+  
+    padding: 0.4em 0.1em ;
+    border: 2px solid rgb(252, 15, 11);
+  
+    flex-wrap: wrap;
+}
+ 
+
+
+.mainContainer .tableAlpha table .reasonTd{
+color: red;
+padding: 0.2em 0.1em;
+/* padding-bottom:2em; */
+} 
+.mainContainer .tableAlpha table .reasonTh{
+color: red;
+display: flex;
+border-bottom: unset;
+justify-content: center;
+align-items: center;
+height: 2em;
+text-align: center;
+border-left: unset;
+border-right: unset;
+/* padding: 0.8em 0.1em; */
+/* padding-bottom:9em; */
+
+} 
+
+
+.mainContainer .tableAlpha table tbody select{
+    /* color:  yellow; */
+    text-align: center;
+    padding: 0 1.4em;
+    background-color: rgb(248, 255, 44);
+    margin: auto;
+}
+
+.btns{
+    display: flex;
+    gap:0.3em;
+    /* background-color: antiquewhite; */
+    /* margin: auto; */
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 1em;
+    /* margin: 0 0.2em; */
+}
+.btns button{
+    /* margin: auto; */
+    border-radius: 6px;
+    padding: 0.2em;
+    background-color: rgb(237, 255, 123);
+}
+
+/*  */
+
+
+
+
+.attendanceRecord {
+    /* display: flex; */
+    background-color: rgb(237, 228, 237);
+    border-radius: 20px;
+    /* padding: 0.2em; */
+    box-shadow: 0 0 10px 4px rgb(0, 106, 255);
+    /* top:-2em; */
+   
+    /* width: 80%;
+    width: 70vw;
+    min-width: 20em;
+    position: relative; */
+    /* margin-left: 3em; */
+    margin: auto;
+    margin-bottom: 0.8em;
+    margin-top: 0.5em;
+    /* margin-top: 2.9em; */
+    /* position: fixed; */
+    position: relative;
+}
+.attendanceRecord table{
+    /* display: flex; */
+    width: 100%;
+    background-color: rgb(208, 247, 225);
+    text-align: center;
+    /* border: 2px solid rgb(105, 99, 99); */
+    /* padding: 4em; */
+    /* border-radius: 30%; */
+    border-collapse: collapse;
+    /* margin-left: 2em; */
+    /* flex-direction: column; */
+}
+
+.attendanceRecord table th ,.attendanceRecord td{
+    /* margin-left:  1em; */
+    font-size: 18px;
+   
+    /* padding: 0.3em; */
+    border: 1px solid rgb(32, 46, 102);
+}
+
+.attendanceRecord span{
+
+    padding: 1em 0;
+    margin: 1em;
+
+}
